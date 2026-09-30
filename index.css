@@ -171,6 +171,10 @@ body{
     display: flex;
     gap: 20px;
 }
+.benefit__card:hover{
+    transform: translateY(-6px);
+    box-shadow: 5px 10px 20px rgba(128, 128, 128, 0.6);
+}
 .benefit__card { 
     height: 280px;
     width: 280px;
@@ -179,7 +183,8 @@ body{
     border-radius: 12px;
     background-color: white;
     text-align: center;
-    transition: 0.3s;
+    box-shadow: 5px 4px 12px rgba(128, 128, 128, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .benefit__title {
     margin-bottom: 8px;
